@@ -1,0 +1,12 @@
+{
+    "keyboard_name": "Navigator 3.1",
+    "manufacturer": "AXON Labs",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "direct": [ ["GP0", "GP1", "GP2"] ]
+    },
+    "vial_encoder_pins": [ ["GP4", "GP5"] ],
+    "vial_uid": "0x41584F4E33310001",
+    "vial_unlock_combo": [0, 0]
+}
