@@ -13,7 +13,7 @@ jobs:
       - name: Compila Navigator
         run: |
           qmk setup -y
-          qmk compile -kb axon_labs/vial -km vial
+          qmk compile -kb axon_labs -km vial
       - name: Salva Firmware
         uses: actions/upload-artifact@v4
         with:
