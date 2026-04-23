@@ -15,8 +15,7 @@ jobs:
       - name: Compila Navigator
         run: |
           qmk setup -y
-          # Forza QMK a riconoscere la nuova cartella
-          qmk compile -kb axon_labs -km vial
+          qmk compile -kb handwired/onekey/promicro -km vial
       
       - name: Salva Firmware
         if: always()
